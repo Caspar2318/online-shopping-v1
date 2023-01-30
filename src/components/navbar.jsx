@@ -12,7 +12,7 @@ export default function Navbar() {
       alignItems: "center",
       background: "black",
     },
-    links: { marginRight: "50px", display: "flex", alignItems: "center" },
+    area: { marginRight: "50px", display: "flex", alignItems: "center" },
     link: {
       textDecoration: "none",
       color: "white",
@@ -23,7 +23,7 @@ export default function Navbar() {
 
   return (
     <div className="navbar" style={styles.navbar}>
-      <div className="links" style={styles.links}>
+      <div className="links" style={styles.area}>
         <Link to="/" style={styles.link}>
           Shop
         </Link>
